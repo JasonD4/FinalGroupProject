@@ -78,8 +78,8 @@
 		120C35E221E65F6600F680B8 /* TeamWork (Jason & Olimpia) */ = {
 			isa = PBXGroup;
 			children = (
-				12AEB90A21E67A49007D63B5 /* Models */,
 				120C35E721E65F6600F680B8 /* Main.storyboard */,
+				12AEB90A21E67A49007D63B5 /* Models */,
 				12AEB8FD21E664FC007D63B5 /* Network Helper */,
 				12AEB8FC21E664E7007D63B5 /* Cells */,
 				12AEB8FA21E664B3007D63B5 /* Controllers */,
@@ -94,8 +94,8 @@
 			children = (
 				120C35E521E65F6600F680B8 /* MagicViewController.swift */,
 				12AEB8F221E662C2007D63B5 /* MagicDetailedViewController.swift */,
-				12AEB8F421E662CF007D63B5 /* PokemonDetailedViewController.swift */,
 				120C35F521E661E500F680B8 /* PokemonViewController.swift */,
+				12AEB8F421E662CF007D63B5 /* PokemonDetailedViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";

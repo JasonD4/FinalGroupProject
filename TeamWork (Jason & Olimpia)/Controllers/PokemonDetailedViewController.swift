@@ -9,19 +9,21 @@
 import UIKit
 
 class PokemonDetailedViewController: UIViewController {
-    
+    var pokemonCards: Pokemon?
+
     @IBOutlet weak var pokemonImage: UIImageView!
     
     @IBOutlet weak var PokemonDetailCollection: UICollectionView!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
 
     @IBAction func pokemonDismiss(_ sender: UIButton) {
+        
     }
     
 
