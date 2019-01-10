@@ -71,7 +71,6 @@ extension PokemonViewController: UICollectionViewDataSource{
             else if let pic = image{
                 DispatchQueue.main.async {
                     cell.pokemonImage.image = pic
-                    cell.pokemonSpinner.stopAnimating()
                 }
                 
             }
@@ -95,7 +94,6 @@ extension PokemonViewController: UICollectionViewDelegateFlowLayout{
             
             vc.modalPresentationStyle = .overCurrentContext
             vc.pokemonCards = pokemonCard[indexPath.row]
-            print(pokemonCard)
             present( vc, animated: true)
     }
     

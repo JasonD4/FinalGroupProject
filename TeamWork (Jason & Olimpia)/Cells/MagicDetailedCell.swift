@@ -10,6 +10,7 @@ import UIKit
 
 class MagicDetailedCell: UICollectionViewCell {
     
+    
     @IBOutlet weak var MagicDetailImage: UIImageView!
     
     @IBOutlet weak var CardName: UILabel!

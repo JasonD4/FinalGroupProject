@@ -224,7 +224,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NxG-Im-hLl">
                                                     <rect key="frame" x="8" y="28" width="298" height="272"/>
                                                 </imageView>
-                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="TaF-d6-6Dn">
+                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="3fB-f5-7ca">
                                                     <rect key="frame" x="147" y="154" width="20" height="20"/>
                                                 </activityIndicatorView>
                                             </subviews>
@@ -232,15 +232,14 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="NxG-Im-hLl" firstAttribute="top" secondItem="1rM-xJ-f61" secondAttribute="topMargin" id="PAw-Pj-xjm"/>
-                                            <constraint firstItem="TaF-d6-6Dn" firstAttribute="centerX" secondItem="NxG-Im-hLl" secondAttribute="centerX" id="QaU-k9-yTN"/>
                                             <constraint firstAttribute="bottomMargin" secondItem="NxG-Im-hLl" secondAttribute="bottom" id="buh-aY-hpX"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="NxG-Im-hLl" secondAttribute="trailing" id="eT6-9l-P9B"/>
+                                            <constraint firstItem="3fB-f5-7ca" firstAttribute="centerX" secondItem="NxG-Im-hLl" secondAttribute="centerX" id="mXR-ld-And"/>
+                                            <constraint firstItem="3fB-f5-7ca" firstAttribute="centerY" secondItem="NxG-Im-hLl" secondAttribute="centerY" id="nW6-K8-DFi"/>
                                             <constraint firstItem="NxG-Im-hLl" firstAttribute="leading" secondItem="1rM-xJ-f61" secondAttribute="leadingMargin" id="rij-pP-v1G"/>
-                                            <constraint firstItem="TaF-d6-6Dn" firstAttribute="centerY" secondItem="NxG-Im-hLl" secondAttribute="centerY" id="vJR-2F-UQv"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="pokemonImage" destination="NxG-Im-hLl" id="Ahx-Ev-U8p"/>
-                                            <outlet property="pokemonSpinner" destination="TaF-d6-6Dn" id="i0W-4c-Wpp"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
