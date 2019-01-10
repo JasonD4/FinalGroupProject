@@ -10,6 +10,7 @@ import UIKit
 
 class MagicDetailedCell: UICollectionViewCell {
     
+    
     @IBOutlet weak var MagicDetailImage: UIImageView!
     
     @IBOutlet weak var CardName: UILabel!
@@ -19,7 +20,6 @@ class MagicDetailedCell: UICollectionViewCell {
     @IBOutlet weak var cardAbilties: UITextView!
     
     
-    //conect the stuff from the detailed story board
-    //aaaaannndddddd do the pokemon!!!
+   
     
 }
