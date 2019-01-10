@@ -44,6 +44,8 @@ extension MagicDetailedViewController: UICollectionViewDataSource {
         cell.CardName.text = currentCard.foreignNames[indexPath.row].name
         cell.language.text = currentCard.foreignNames[indexPath.row].language
         cell.cardAbilties.text = currentCard.foreignNames[indexPath.row].text
+        cell.magicDetailedSpinerThingy.stopAnimating()
+        
         cell.cardAbilties.isEditable = false
         ImageHelper.shared.fetchImage(urlString: currentCard.foreignNames[indexPath.row].imageUrl) { (error, image) in
             if let error = error {

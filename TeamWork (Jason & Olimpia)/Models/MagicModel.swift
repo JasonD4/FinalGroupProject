@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Cards: Codable {
+struct CardsForMagic: Codable {
     let cards: [MagicCards]
 }
 

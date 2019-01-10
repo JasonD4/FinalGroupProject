@@ -20,6 +20,7 @@ class MagicDetailedCell: UICollectionViewCell {
     @IBOutlet weak var cardAbilties: UITextView!
     
     
-   
+    @IBOutlet weak var magicDetailedSpinerThingy: UIActivityIndicatorView!
+    
     
 }

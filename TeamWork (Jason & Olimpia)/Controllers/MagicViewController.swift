@@ -41,7 +41,7 @@ class MagicViewController: UIViewController {
             }
             if let data = data {
                 do{
-                    let card = try JSONDecoder().decode(Cards.self, from: data).cards.filter() {$0.imageUrl != nil}
+                    let card = try JSONDecoder().decode(CardsForMagic.self, from: data).cards.filter() {$0.imageUrl != nil}
                     self.magicCard = card
                     print(self.magicCard.count)
                 }
@@ -67,6 +67,7 @@ extension MagicViewController: UICollectionViewDataSource {
                 print(AppError.errorMessage(error))
             } else if let image = image {
                 cell.magicImage.image = image
+                cell.magicSpinerThingy.stopAnimating()
             }
         }
         return cell

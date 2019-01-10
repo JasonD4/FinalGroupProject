@@ -13,5 +13,6 @@ class MagicCell: UICollectionViewCell {
     @IBOutlet weak var magicImage: UIImageView!
     
     
+    @IBOutlet weak var magicSpinerThingy: UIActivityIndicatorView!
     
 }

@@ -71,11 +71,11 @@ extension PokemonViewController: UICollectionViewDataSource{
             else if let pic = image{
                 DispatchQueue.main.async {
                     cell.pokemonImage.image = pic
+                    cell.pokemonSpinner.stopAnimating()
                 }
                 
             }
         }
-        
         
         return cell
     }
