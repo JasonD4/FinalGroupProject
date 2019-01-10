@@ -25,7 +25,6 @@ class PokemonDetailedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        PokemonDetailCollection.delegate = self
         PokemonDetailCollection.dataSource = self
         view.isOpaque = false
 }
@@ -79,10 +78,3 @@ extension PokemonDetailedViewController: UICollectionViewDataSource{
         
     }
 
-extension PokemonDetailedViewController: UICollectionViewDelegateFlowLayout{
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize.init(width: 150, height: 250)
-    }
-
-    
-}

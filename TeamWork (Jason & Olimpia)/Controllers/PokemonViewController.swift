@@ -85,7 +85,7 @@ extension PokemonViewController: UICollectionViewDataSource{
 
 extension PokemonViewController: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize.init(width: 200, height: 400)
+        return CGSize.init(width: 200, height: 300)
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
             let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
