@@ -20,7 +20,6 @@ class MagicDetailedCell: UICollectionViewCell {
     @IBOutlet weak var cardAbilties: UITextView!
     
     
-    //conect the stuff from the detailed story board
-    //aaaaannndddddd do the pokemon!!!
+   
     
 }

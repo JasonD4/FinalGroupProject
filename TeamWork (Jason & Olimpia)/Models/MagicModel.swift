@@ -7,3 +7,24 @@
 //
 
 import Foundation
+
+struct Cards: Codable {
+    let cards: [MagicCards]
+}
+
+ struct MagicCards: Codable {
+    var name: String
+    var imageUrl: String?
+    var foreignNames: [ForeignNamesInfo]
+    
+    struct ForeignNamesInfo: Codable {
+        var name: String
+        var text: String
+        var imageUrl: String
+        var language: String
+    }
+}
+
+
+
+
